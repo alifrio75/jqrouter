@@ -133,7 +133,7 @@ $(document).ready(function() {
 	var routes = [ cmpFirst, cmpSecond, cmpThird, cmpFourth, cmpFifth];
 	Router.init({
 		routes: routes,
-		animations: newAnimations[6],
+		animations: newAnimations[0],
 		beforeLoadAnimation: false,
 		data: {
 			hello_parent: "Hello from parent"
